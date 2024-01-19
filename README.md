@@ -1,5 +1,5 @@
 # CodSoft
-C++ codsoft internship tasks
-Number Guessing Game
-Tick-Tac-Toe Game
-Simple Calculator
+C++ CodSoft Internship Tasks
+1. Number Guessing Game
+2. Tick-Tac-Toe Game
+3. Simple Calculator
