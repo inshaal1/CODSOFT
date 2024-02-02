@@ -4,7 +4,7 @@ void displayboard();
 void playerturn();
 bool gameover();
 
-char board[3][3] = { {'1','2','3'}, {'4','5','6'}, {'7','8','9'} };
+char board[3][3] = { {'1','2','3','4','5','6','7','8','9'} };
 int choice, row, column;
 char turn = 'X';
 bool game_draw = false;
