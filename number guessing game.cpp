@@ -1,23 +1,24 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int userGuess, attempts = 0;
+    int user_guess=0;
     srand(time(0));
-    int secretNumber = rand() % 100 + 1;
+    int attempt = 0;
+    int secret_number = rand() % 100 + 1;
     cout << "Welcome to Number Guessing Game\n";
     do {
-        cout << "Enter your guess: ";
-        cin >> userGuess;
-        attempts++;
-        if (userGuess == secretNumber) {
-            cout << "CongratS! You guessed the correct number in " << attempts << " attempts.\n";
+        cout << "enter your guess:";
+        cin >> user_guess;
+        attempt=attempt+1;
+        if (user_guess == secret_number) {
+            cout << "congratulation! you have guessed the correct number in " << attempt << " attempts\n";
         }
-        else if (userGuess < secretNumber) {
-            cout << "Too low! Try again.\n";
+        else if (user_guess > secret_number) {
+            cout << "too high. try again.\n";
         }
         else {
-            cout << "Too high! Try again.\n";
+            cout << "too low. try again.\n";
         }
-    } while (userGuess != secretNumber);
+    } while (user_guess != secret_number);
     return 0;
 }
