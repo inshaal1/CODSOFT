@@ -32,4 +32,4 @@ Welcome to the Mini Games Collection! This repository includes three fun and sim
 To run any of the games or the calculator:
 
 1. Clone the repository:
- 
+ git clone https://github.com/inshaal1/Mini-Programes-Collection
