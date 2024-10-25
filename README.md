@@ -1,4 +1,4 @@
-# Mini Games Collection
+# Mini Programs Collection
 
 Welcome to the Mini Games Collection! This repository includes three fun and simple console-based games along with a basic calculator:
 
